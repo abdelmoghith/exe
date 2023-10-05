@@ -1,0 +1,24 @@
+* {
+  margin: 0;
+  font-family: "Roboto", sans-serif;
+}
+.bodx {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.text p {
+  margin-top: 10px;
+  font-weight: bold;
+  line-height: 30px;
+  width: 500px;
+}
+.image {
+  background-image: url(3762253-immeuble-a-plusieurs-etages-icone-lineaire-appartement-maison-illustration-ligne-mince-tour-bloc-contour-symbole-vector-isole-dessin-contour-vectoriel.jpg);
+  background-repeat: no-repeat;
+  background-size: contain;
+  width: 250px;
+  height: 250px;
+}

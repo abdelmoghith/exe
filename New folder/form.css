@@ -1,0 +1,59 @@
+.General {
+  padding: 30px;
+  background-color: white;
+  width: 100%;
+  margin: 50px auto;
+  position: relative;
+}
+.General::after {
+  content: "";
+  left: -15px;
+  position: absolute;
+  top: 0;
+  background-color: rgba(0, 0, 0, 0.257);
+  height: 100%;
+  width: 1px;
+}
+.General h2 {
+  margin-bottom: 5px;
+}
+.General p:first-of-type {
+  color: rgba(0, 0, 0, 0.503);
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+.General p:nth-of-type(2),
+.General p:nth-of-type(3),
+.General p:nth-of-type(4) {
+  margin-left: 15px;
+  margin-bottom: 5px;
+  margin-top: 25px;
+}
+.General input {
+  padding-left: 15px;
+  width: 300px;
+  height: 30px;
+  border-radius: 10px;
+  border: 2px solid black;
+}
+
+#sub {
+  margin: 10px auto;
+  padding: 10px;
+  background-color: darkcyan;
+  color: white;
+  outline: none;
+  border: none;
+  border-radius: 20px;
+  padding-right: 11px;
+}
+#sub:hover {
+  background-color: darkblue;
+}
+.flex {
+  display: flex;
+}
+.inpt {
+  display: flex;
+  justify-content: center;
+}

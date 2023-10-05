@@ -1,0 +1,47 @@
+* {
+  margin: 0;
+}
+.all {
+  height: 100vh;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+}
+
+.all h1,
+.all p {
+  margin-bottom: 10px;
+}
+.btn {
+  position: absolute;
+  bottom: 10px;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.btn a:hover {
+  background-color: #1b0808;
+  color: white;
+}
+#link a {
+  text-decoration: none;
+  color: black;
+}
+#link a:hover {
+  color: red;
+}
+.btn a {
+  text-decoration: none;
+  color: black;
+  padding: 5px;
+  background-color: #eee;
+  border-radius: 50px;
+}
+.Acc {
+  box-shadow: 0px 0px 5px #777;
+  width: 250px;
+  height: 150px;
+  text-align: center;
+  padding-top: 20px;
+  border-radius: 50px;
+  position: relative;
+}
